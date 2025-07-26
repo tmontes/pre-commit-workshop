@@ -1,5 +1,5 @@
 [project]
-name = "custom-hook"
+name = "short-filenames"
 version = "0.1.0"
 authors = [{name = "TODO", email = "TODO@TODO"},]
 description = "A pre-commit hook created during the workshop."
@@ -10,7 +10,7 @@ dependencies = []  # TODO: declare any dependencies
 
 # TODO: update `your-script-name` with the name of your choice
 # TODO: update `pkg.module:function` to point to your function
-scripts.your-script-name = "pkg.module:function"
+scripts.short-filenames = "short_filenames.check:assert_short_filenames"
 
 [dependency-groups]
 dev = [
